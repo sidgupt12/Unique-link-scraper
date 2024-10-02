@@ -30,18 +30,22 @@ This project is a simple web crawler written in Go that retrieves unique URLs fr
     cd Unique-link-scraper
 
 
-2.	**Install the required package:**
-The project uses the golang.org/x/net/html package. Install it with the following command:
+2. **Install the required package:**
 
-go get golang.org/x/net/html
+   The project uses the [golang.org/x/net/html](https://golang.org/x/net/html) package. Install it with the following command:
+
+   ```bash
+   go get golang.org/x/net/html
 
 ## Usage
 
-To run the web crawler, use the following command:
+    To run the web crawler, use the following command:
 
-go run main.go <seed-url-1> <seed-url-2> ...
+    ```bash
+    go run main.go <seed-url-1> <seed-url-2> ...
+    ```
 
-Replace <seed-url-1>, <seed-url-2>, etc., with the URLs you want to crawl.
+    Replace <seed-url-1>, <seed-url-2>, etc., with the URLs you want to crawl.
 
 ## Example
 For example, to crawl URLs starting from https://example.com and https://golang.org, run:
