@@ -26,8 +26,8 @@ This project is a simple web crawler written in Go that retrieves unique URLs fr
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+    git clone https://github.com/sidgupt12/Unique-link-scraper
+    cd Unique-link-scraper
 
 
 2.	**Install the required package:**
