@@ -41,9 +41,7 @@ This project is a simple web crawler written in Go that retrieves unique URLs fr
 
     To run the web crawler, use the following command:
 
-    ```bash
     go run main.go <seed-url-1> <seed-url-2> ...
-    ```
 
     Replace <seed-url-1>, <seed-url-2>, etc., with the URLs you want to crawl.
 
